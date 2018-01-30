@@ -1,0 +1,54 @@
+/* assets/style.css */
+
+body {
+     background-image: url("dust_scratches.png");
+     font-family: Arial, Helvetica, sans-serif
+
+}
+
+header {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-size: 25px;
+    font: ##4aaaa5;
+
+    }
+
+
+    
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div {
+    width: 650px;
+    border: 25x grey;
+    padding: 25px;
+    margin: 25px;
+}
+
+.sidebar {
+    float: right;
+    width: 33%;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    padding: 50px;
+    color: #ffffff;
+
+    }  
