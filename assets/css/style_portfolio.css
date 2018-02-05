@@ -1,31 +1,27 @@
-/* assets/style.css */
-
 body {
      font-family: Arial, Helvetica, sans-serif;
      background-image: url("../images/dust_scratches.png")
-     
+    
 }
 
 header {
 
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #ffffff;
-    border-color: #cccccc;
-    font-size: 25px;
-    font: ##4aaaa5;
+   position: relative;
+   display: block;
+   max-width: 940px;
+   margin: 0 auto;
+   padding: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: #ffffff;
+   border-color: #cccccc;
+   font-size: 25px;
+   font: ##4aaaa5;
 
-    }
-
-header h1 {
+   }
+   header h1 {
     line-height: 45px;
     font-size: 24px;
-    margin: 20px;
+    margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     background-color: #4aaaa5;
@@ -35,11 +31,6 @@ header h1 {
     display: inline;
 }
 
-h1 {
-    margin-left: 20px;
-}
-
-
 nav {
    padding-left: 0;
    margin-bottom: 0;
@@ -47,11 +38,6 @@ nav {
    float: right;
    display: inline;
    font-size: 16px;
-   font-family: Arial, Helvetica, sans-serif;
-
-   
-   
-
 
 }
 
@@ -62,8 +48,6 @@ nav li {
     font-family: Arial, Helvetica, sans-serif;
     color: #666666;
     padding: 0 1rem;
-    
- 
 }
 
 nav li > a {
@@ -83,46 +67,22 @@ h2 {
     font-size: 40px;
 }
 
-ul {
-    font-size: 16px;
+
+.portfolio{
+    border-width: 400px;
+    margin-left: 450px;
+    margin-right: 40px;
     
 }
 
 .boxed {
-    border: 1px solid #eee; ;
-    width: 650px;
-    float: left;
+        border: 1px solid #eee; ;
+        width: 650px;
+        float: left;
+        margin-left: 200px;
+      }
   }
 
-.container {
-    width: 940px;
-    margin-left: 160px;
-    float: left;
-  }
-
-
-  .floatLeft {
-
-    float: left;
-    padding: 0 10px 0 0;
-    margin: 25px;
-}
-
-.minibio {
-    padding: 0;
-    line-height:28px; 
-    font-size: 16px;
-    margin: 25px 25px 0px:
-    font-family:Arial, Helvetica, sans-serif;
-
-}
-
-div {
-    width: 650px;
-    border: 25x grey;
-    padding: 25px;
-    margin: 25px;
-}
 
 .links {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -133,9 +93,9 @@ div {
     bottom: 640px;
     border: 1px solid #eee;
     padding: 0 auto;
-  
     
 }
+
 
 footer {
     background-color: #666666;
@@ -143,8 +103,6 @@ footer {
     padding: 50px;
     color: #ffffff;
     width: 100%;
+    margin-top: 10px;
     border-top: solid thick #4aaaa5;
     clear: both;
-    
-
-    }  
